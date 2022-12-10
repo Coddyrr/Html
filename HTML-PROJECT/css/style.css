@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    width: 100%;
+    display:flex;
+    border: 3px 09px;
+    height: 30px;
+    
+}
+
+.navbar{
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   position: sticky;
+   top:0;
+   cursor:pointer;
+}
+
+.nav-list{
+    width: 500%;
+    align-content: center;
+    font-size: 145%;
+    text-align:flex;
+    height:140px;
+    background-color:darkslategray;
+
+
+}
+b{
+    font-size: 60px;
+    font-family: algerian;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 2em;
+    font-display: flex;
+}
+
+.nav-list li a{
+    color:rgb(51, 249, 7);
+    text-decoration: none;
+    padding:18px 2px
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: white;
+   /* position:flex;*/
+    background-color:black;
+    width: 20px;
+    height:10px;
+}
+
+.search{
+    margin-left: 300px;
+    height: 36px;
+    width: 300px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+
+}
+
+.btn-sm{
+    width:90px;
+    height: 40px;
+    font-size:18px;
+    vertical-align:middle;
+    cursor: pointer;
+}
+.background{
+    background:rgb(0, 0, 0, 0.2)  url('../img/Rail2.png');
+    background-size:cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:50%;
+    margin:10px auto auto 5px;
+    height:80%;
+
+    
+    font-weight: 700;
+    font-size: 90px;
+}
+.firstsection{
+    height: 110vh;
+}
+.firstHalf{
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width:70%;
+    border-radius: 4px solid white;
+    display: block;
+    margin:auto;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border:2px solid white;
+    border-radius:8px;
+    background:none;
+    color:white;
+   
+}
+.btn-sm1{
+    padding:9px 12px;
+    vertical-align:middle;
+    width:150px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.section{
+    height: 500px;
+    display:flex;
+    align-items:space-evenly;
+    max-width:80%;
+    margin: auto;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 4px 65px;
+}
+.text-big{
+    font-size: 1.9rem;
+
+    
+}
+
+.text-small{
+    font-size: 1.1rem;
+}
+
+.Rail{
+    height:34px;
+    border-radius: 8px;
+    width: 300px;
+}
+.User{
+    padding:4px 500px;
+    background-color:brown;
+   
+}
+/*.we{
+    width: 700px;
+    height: 400px;
+    background-color:white;
+    margin-right: 10px;
+    text-align: center;
+}*/
+.q{
+    width: 400px;
+    height:300px;
+    background-color:lightgray;
+    margin-right: 100px;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: 40px;
+}
+.w{
+    width: 400px;
+    height:300px;
+    background-color:lightgray;
+    margin-right: 100px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.e{
+    width: 400px;
+    height:300px;
+    background-color:lightgray;
+    margin-right: 100px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.qwe{
+    display:flex;
+    padding:30px;
+    height: 400px;
+    background-color: gray;
+}
+#er{
+    font-size:60px;
+    font-family: algerian;
+    background-color: gray;
+}
+#d{
+    border-radius: 20px;
+}
+.sectionsubTag{
+    margin-left: 40px;
+}
+center{
+    font-size: 30px;
+}
+.thumbnail{
+    margin:30px;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+#asd{
+    border-radius: 20px;
+}
+.form-fill h5{
+    padding-bottom: 10px;
+}
+.form-fill{
+    font-size:40px;
+    margin-left:180%;
+    margin-top: -89%;
+    width: 68%;
+    padding-bottom: 23px;
+    align-items: center;
+}
+.box{
+    align-items: center;
+}
+.box div{
+    margin-left: 23%;
+}
+div.div input{
+    width: 74%;
+    padding: 7px;
+    margin-left: -18%;
+}
+.ic{
+    font-size: 28px;
+    color: #fff;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: -18px;
+    margin-left: 60%;
+}
+select.opt{
+    margin-left:-40px ;
+    width: 80%;
+    padding: 7px;
+
+}
+input.submit{
+    height: 30px;
+    width: 107px;
+    border-radius: 5px;
+    margin-left: 70px;
+    cursor: pointer;
+
+}
+input.submit:hover{
+    background: darkolivegreen;
+    color:#fff;
+}
+.ill{
+    margin-top: 2%;
+}
+.paras{
+    width: 600px;
+    height: 200px;
+}
+.paras p{
+    font-size: 25px;
+}
+.asew{
+    padding:20px 40px 20px 40px;
+    border-radius: 20px;
+}
+.User{
+    background-color:lightblue;
+}
+.nhr{
+    background-color: green;
+    padding-top:20px;
+    padding-bottom:20px
+}
+#gf{
+    margin-left: 900px;
+    display: flex;
+    padding:10px 20px;
+    position: fixed;
+    top:0
+}
